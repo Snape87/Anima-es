@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio com animações</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <video
+        class="back-vid"
+        autoplay
+        muted
+        loop
+        plays-inline
+        src="Videos/galaxy.mp4"
+        type="video/mp4"
+      ></video>
+
+      <header>
+        <div class="esquerda">
+          <img src="imagens/foto.Nicholas.png" alt="logo" />
+          <h1><span style="color: #72a1de">Nicholas</span></h1>
+        </div>
+
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Projetos</a></li>
+        </ul>
+
+        <div class="box-icons">
+          <a href="https://www.linkedin.com/in/nicholas-gon%C3%A7alves-a8b07b334/"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Snape87"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/_duartenic_/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+      </header>
+
+      <div
+        class="buraconegro-box"
+        data-aos="fade-down"
+        data-aos-duration="2000"
+      >
+        <video
+          autoplay
+          loop
+          muted
+          plays-inline
+          src="videos/blackhole.mp4"
+        ></video>
+      </div>
+
+      <section class="hero">
+        <div
+          class="hero-info autoBlur"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <div class="hero-info-title">
+            <i class="bx bxl-sketch"></i>
+            Desenvoldevor Front-End
+          </div>
+          <h1 data-aos="fade-right" data-aos-duration="3000">
+            Transformando <span class="gradient">Ideias </span>e<span
+              class="gradient"
+            >
+              Projeto
+            </span>
+            em experiência
+          </h1>
+
+          <p>
+            Sou desenvolvedor Front-End com foco em criar interfaces modernas,
+            interativas e acessíveis. Sempre em busca de novos aprendizados para
+            evoluir como desenvolvedor full stack.
+          </p>
+
+          <button><i class="bx bx-send"></i> Me Contate</button>
+      
+        </div>
+      </section>
+
+      <section class="transicao">
+        <img src="imagens/Animation.gif" alt="Astronauta flutuando" class="astronauta-gif">
+      <p class="scroll">Veja como transformo ideias em realidade com código.</p>
+      </section>
+
+
+      <section class="projetos" id="projetos">
+  <div class="titulo-projetos">
+    <h2 class="scroll">Meus Projetos</h2>
+    <p class="scroll delay">
+      Veja alguns dos meus projetos desenvolvidos com foco em interfaces modernas, responsividade e boas práticas.
+    </p>
+  </div>
+
+  <div class="linha-tempo">
+    <div class="projeto bloco-esquerda" data-aos="fade-right">
+      <h3>Projeto 1</h3>
+      <p>Descrição do projeto 1.</p>
+    </div>
+
+    <div class="projeto bloco-direita" data-aos="fade-left">
+      <h3>Projeto 2</h3>
+      <p>Descrição do projeto 2.</p>
+    </div>
+
+    <div class="projeto bloco-esquerda" data-aos="fade-right">
+      <h3>Projeto 3</h3>
+      <p>Descrição do projeto 3.</p>
+    </div>
+
+   
+  </div>
+</section>
+
+
+
+
+
+
+      
+</div>
+
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
